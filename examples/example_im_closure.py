@@ -1,4 +1,4 @@
-# example of imaging directly with closure quantities stored in obsdata object
+#%% example of imaging directly with closure quantities stored in obsdata object
 
 
 # Note: must import ehtim outside the ehtim directory
@@ -102,3 +102,5 @@ imgr.make_image(show_updates=False)
 
 out = imgr.out_last()
 out.display()
+
+# %%

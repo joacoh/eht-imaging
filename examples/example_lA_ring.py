@@ -1,3 +1,4 @@
+#%%
 import numpy as np
 import ehtim as eh
 import matplotlib.pyplot as plt
@@ -65,3 +66,5 @@ for repeat in range(5):
 
 out2.display()
 out2.display(scale='log')
+
+# %%

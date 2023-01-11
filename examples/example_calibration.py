@@ -1,3 +1,4 @@
+#%%
 import ehtim as eh
 
 # Load the image and the array
@@ -28,3 +29,5 @@ obs_sc = eh.calibrating.self_cal.self_cal(obs, im, processes=0)
 eh.comp_plots.plot_bl_obs_im_compare([obs,obs_nc,obs_sc],im,'SMA','ALMA','amp')
 eh.comp_plots.plotall_obs_im_compare([obs,obs_nc,obs_sc],im,'uvdist','amp')
 eh.comp_plots.plotall_obs_im_compare([obs,obs_nc,obs_sc],im,'uvdist','phase')
+
+# %%
