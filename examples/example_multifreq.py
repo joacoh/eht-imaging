@@ -1,4 +1,4 @@
-# Multifrequency imager example
+#%% Multifrequency imager example
 # RIAF model with a constant spectral index
 
 from __future__ import division

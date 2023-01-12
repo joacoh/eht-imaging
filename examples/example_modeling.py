@@ -1,4 +1,4 @@
-# Note: this is an example sequence of commands to run in ipython
+#%% Note: this is an example sequence of commands to run in ipython
 # The matplotlib windows may not open/close properly if you run this directly as a script
 
 from __future__ import division
@@ -92,3 +92,5 @@ cfig.show()
 
 # Save the MAP
 mod_fit['model'].save_txt('sample_modelfit.txt')
+
+# %%
